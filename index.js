@@ -1,6 +1,6 @@
 const Fetch = require("node-fetch")
 const Joker = require('one-liner-joke');
-const crypto = require("crypto");
+const crypto = require("crypto")
 
 module.exports = {
   DiscordSpoiler: async function (String, EmbedColor) {
